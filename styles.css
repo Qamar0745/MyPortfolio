@@ -2,6 +2,27 @@ body{
     font-family: 'Montserrat', sans-serif;;
 }
 
-h1{
-    color: red;
+:root{
+    --primary-color: darkviolet;
+}
+
+.primary{
+    padding: 0.5rem 1rem;
+    background-color: darkviolet;
+    border-radius: 0.5rem;
+    color: wheat;
+    text-decoration: none;
+}
+
+.secondary{
+    padding: 0.5rem 1rem;
+    background-color: white;
+    color: var(--primary-color);
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 0.5rem;
+}
+
+hr{
+    margin: 1rem 0rem;
 }
