@@ -5,6 +5,7 @@ body{
 :root{
     --primary-color: darkviolet;
     --gray: #52525b;
+    --white: #f8fafc;
 }
 
 .primary{
@@ -67,3 +68,41 @@ hr{
 .header .header-heading .heading-inverted{
     color: var(--primary-color);
 }
+
+.section{
+    padding: 2rem;
+}
+
+.section h1{
+    text-align: center;
+}
+
+.ow{
+    background-color: #94a3b8;
+    border-radius: 0.5rem;
+}
+
+.container-center{
+    max-width: 600px;
+    margin: auto;
+}
+
+.footer{
+    text-align: center;
+    background-color: var(--primary-color);
+    padding: 2rem;
+    border-bottom-right-radius: 1rem;
+    color: var(--white);
+}
+
+.footer .link{
+    color: var(--white);
+    text-decoration: none;
+}
+
+.footer .footer-list{
+    padding-top: 2rem;
+    padding-inline-start: 0px;
+}
+
+
