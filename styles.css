@@ -13,14 +13,15 @@ body{
 }
 
 :root{
-    --primary-color: darkviolet;
+    --primary-color: #451894;
     --gray: #52525b;
     --white: #f8fafc;
+    --bg-color:#d4d4d8;
 }
 
 .primary{
     padding: 0.5rem 1rem;
-    background-color: darkviolet;
+    background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: wheat;
     text-decoration: none;
@@ -28,7 +29,7 @@ body{
 
 .secondary{
     padding: 0.5rem 1rem;
-    background-color: white;
+    background-color: var(--white);
     color: var(--primary-color);
     text-decoration: none;
     border: 0.5px solid;
@@ -50,7 +51,7 @@ hr{
 }
 
 .navigation{
-    background-color: darkviolet;
+    background-color: var(--primary-color);
     color: white;
     border-bottom-left-radius: 0.5rem;
     padding: 1rem;
@@ -62,13 +63,15 @@ hr{
 }
 
 .header{
-    padding: 2rem;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
 }
 
 .header .header-image{
     max-width: 350px;
     display: block;
     margin: auto;
+    padding-top: 3rem;
 }
 
 .header .header-heading{
@@ -90,7 +93,7 @@ hr{
 }
 
 .ow{
-    background-color: #94a3b8;
+    background-color: var(--bg-color);
     border-radius: 0.5rem;
 }
 
@@ -115,6 +118,14 @@ hr{
 .footer .footer-list{
     padding-top: 2rem;
     padding-inline-start: 0px;
+}
+
+.list{
+    list-style-type: none;
+}
+
+.projects-ul{
+    margin-left: 0px;
 }
 
 
